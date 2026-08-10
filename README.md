@@ -27,8 +27,8 @@ The key objective of this project is to replicate a real-world phishing email an
 | 2 hour delivery delay | Email Header | 2 hour delay on Russian relay server indicating long queue of emails — possibly a well-organized mass phishing campaign |
 | Email Spoofing | Email Header | 54upr.rosreestr.ru spoofed as postfiji.com.fj mail server |
 | Failed SPF | Email Header | 109.202.24.52 not authorized to send email on behalf of postfiji.com.fj, email spoofing revealed |
-| Same Sender Spoofing | Email Header | From and To addresses identical (nemani[.]tukunia@postfiji.com.fj), used to confuse victim |
-| Reply-To Mismatch | Email Header | Reply-To (mywoodforestbiz[.]7@gmail.com) differs from From address, revealing true attacker contact |
+| Same Sender Spoofing | Email Header | From and To addresses identical (nemani[.]tukunia@postfiji[.]com[.]fj), used to confuse victim |
+| Reply-To Mismatch | Email Header | Reply-To (mywoodforestbiz[.]7@gmail[.]com) differs from From address, revealing true attacker contact |
 | DKIM None | Email Header | Email not cryptographically signed, authenticity unverifiable |
 | Social Engineering Tactics | Email Body | Authority, reward, and urgency tactics observed to trap victim into initiating conversation |
 
